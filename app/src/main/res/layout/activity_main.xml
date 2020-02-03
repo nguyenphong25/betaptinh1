@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="#f20"
+        android:layout_gravity="center"
+        android:textSize="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ung dung be hoc toan"/>
+    <EditText
+        android:id="@+id/edtnhapso1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        />
+    <EditText
+        android:id="@+id/edtnhapso2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:textColor="#f20"
+        android:id="@+id/texketqua"
+        android:text="10"
+        android:layout_gravity="center"
+        android:textSize="50sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+            <Button
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:id="@+id/btncong"
+                android:text="+"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Button>
+        <Button
+            android:layout_marginLeft="100dp"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:id="@+id/btntru"
+            android:text="-"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+</LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:id="@+id/btnnhan"
+            android:text="*"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+        <Button
+            android:layout_marginLeft="100dp"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:id="@+id/btnchia"
+            android:text=":"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>
